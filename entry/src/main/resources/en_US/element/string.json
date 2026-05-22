@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "AnkiDroid"
+    },
+    {
+      "name": "module_desc",
+      "value": "AnkiDroid main module"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "AnkiDroid main entry ability"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "AnkiDroid"
+    }
+  ]
+}

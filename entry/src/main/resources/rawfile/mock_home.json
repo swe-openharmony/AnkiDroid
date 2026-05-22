@@ -1,0 +1,7 @@
+{
+  "cardsDue": 1,
+  "studiedToday": "Studied 0 cards in 0 seconds today (0s/card)",
+  "decks": [
+    { "name": "Default", "newCount": 1, "learnCount": 0, "reviewCount": 0 }
+  ]
+}

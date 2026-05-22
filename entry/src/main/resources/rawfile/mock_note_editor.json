@@ -1,0 +1,15 @@
+{
+  "noteTypes": ["Basic", "Basic (reversed)", "Cloze"],
+  "deckNames": ["Default", "Japanese", "English"],
+  "formatButtons": [
+    { "glyph": "B",     "label": "Bold",            "fontWeight": "bold",    "italic": false, "underline": false },
+    { "glyph": "I",     "label": "Italic",          "fontWeight": "regular", "italic": true,  "underline": false },
+    { "glyph": "U",     "label": "Underline",       "fontWeight": "regular", "italic": false, "underline": true  },
+    { "glyph": "—",     "label": "Horizontal rule", "fontWeight": "regular", "italic": false, "underline": false },
+    { "glyph": "T",     "label": "Heading",         "fontWeight": "bold",    "italic": false, "underline": false },
+    { "glyph": "Tt",    "label": "Font size",       "fontWeight": "regular", "italic": false, "underline": false },
+    { "glyph": "Σ",     "label": "MathJax",         "fontWeight": "regular", "italic": false, "underline": false },
+    { "glyph": "[..+]", "label": "Cloze new",       "fontWeight": "regular", "italic": false, "underline": false },
+    { "glyph": "[..]",  "label": "Cloze same",      "fontWeight": "regular", "italic": false, "underline": false }
+  ]
+}

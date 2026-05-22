@@ -1,0 +1,8 @@
+{
+  "cards": [
+    { "id": "c1", "sortField": "Hello", "cardType": "Basic", "due": "Today", "deck": "Default" },
+    { "id": "c2", "sortField": "World", "cardType": "Basic", "due": "1d", "deck": "Default" },
+    { "id": "c3", "sortField": "Cloze deletion sample", "cardType": "Cloze", "due": "3d", "deck": "Japanese" },
+    { "id": "c4", "sortField": "Long sort field example that truncates at the edge", "cardType": "Basic (and reversed card)", "due": "2026-04-30", "deck": "Default::Subdeck" }
+  ]
+}
