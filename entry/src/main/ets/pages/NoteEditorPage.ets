@@ -1,23 +1,4 @@
-// ====================================================================
 // Page: NoteEditorPage
-// App: AnkiDroid
-// Android baseline screenshot:
-//   - D:/OH-Appforge/_doc_screenshots_v2/AnkiDroid/L2_2_note_editor_new.png
-// Android view tree:
-//   - D:/OH-Appforge/_doc_screenshots_v2/AnkiDroid/L2_2_note_editor_new.xml
-// Layout contract:
-//   - Cyan toolbar: back arrow (←) + "Add" title, then ✓ Save / 👁 Preview /
-//     ⋮ overflow on the right
-//   - Type: row (bold "Type:" label + spinner showing "Cloze" with caret)
-//   - Deck: row (bold "Deck:" label + tappable text "Default" with caret)
-//   - Field 1: label "Text" + sticky-pin (📌) + paperclip (📎) + chevron-up
-//     (▲), then EditText area
-//   - Field 2: label "Back Extra" + same trio of action icons + EditText
-//   - Tags: button row "Tags:"
-//   - Cards: button row "Cards: Cloze"
-//   - Bottom: formatting toolbar B I U — T Tt Σ⊕ [..+] [..]
-// Mock data: empty/default new card form (Type=Cloze, Deck=Default).
-// ====================================================================
 
 import { router } from '@kit.ArkUI';
 import { hilog } from '@kit.PerformanceAnalysisKit';

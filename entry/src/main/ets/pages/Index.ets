@@ -1,15 +1,4 @@
-// ====================================================================
-// Page: Index (AnkiDroid L0 Home — DeckPicker)
-// Android baseline: D:/OH-Appforge/_doc_screenshots_v2/AnkiDroid/L0_home.png
-// Layout contract:
-//   - Top app bar (cyan): hamburger + "AnkiDroid" + subtitle "1 card due"
-//     + sync icon (with red ! badge) + overflow ⋮ + Browse (book) icon
-//   - Deck list: light-grey row "Default" with counts "1 0 0" on the right
-//   - Bottom FAB '+' (blue) + footer "Studied 0 cards in 0 seconds today"
-// Navigation:
-//   - Top "Browse" icon tap → CardBrowserPage
-//   - FAB '+' tap → NoteEditorPage
-// ====================================================================
+// Page: Index
 
 import { router } from '@kit.ArkUI';
 import { hilog } from '@kit.PerformanceAnalysisKit';

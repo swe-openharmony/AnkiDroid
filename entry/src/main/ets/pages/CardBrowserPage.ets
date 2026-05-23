@@ -1,23 +1,4 @@
-// ====================================================================
 // Page: CardBrowserPage
-// App: AnkiDroid
-// Android baseline screenshot:
-//   - D:/OH-Appforge/_doc_screenshots_v2/AnkiDroid/L1_1_card_browser.png
-// Android view tree:
-//   - D:/OH-Appforge/_doc_screenshots_v2/AnkiDroid/L1_1_card_browser.xml
-// Layout contract:
-//   - Top toolbar: cyan (#03A9F4) bg, hamburger drawer icon (☰), deck name
-//     "Default" + subtitle "4 cards shown", then Add (+) icon, Search (🔍)
-//     icon, overflow (⋮)
-//   - Below: sticky column-header row "Sort Field | Card Type | Due | Deck"
-//     (each ~25% wide), thin divider
-//   - Vertical list of 4-column card rows, each row text-only
-// Mock data: 4 cards exactly matching Android baseline screenshot:
-//   Hello | Basic | Today | Default
-//   World | Basic | 1d    | Default
-//   Cloze deletion sample | Cloze | 3d | Japanese
-//   Long sort field example that truncates at the edge | Basic (and reversed card) | 2026-04-30 | Default::Subdeck
-// ====================================================================
 
 import { router } from '@kit.ArkUI';
 import { hilog } from '@kit.PerformanceAnalysisKit';
