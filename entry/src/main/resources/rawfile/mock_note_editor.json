@@ -1,5 +1,9 @@
 {
-  "noteTypes": ["Basic", "Basic (reversed)", "Cloze"],
+  "types": [
+    { "type": "Basic",            "fields": ["Front", "Back"],        "template": "Card 1" },
+    { "type": "Basic (reversed)", "fields": ["Front", "Back"],        "template": "Card 1, Card 2" },
+    { "type": "Cloze",            "fields": ["Text", "Back Extra"],   "template": "Cloze" }
+  ],
   "deckNames": ["Default", "Japanese", "English"],
   "formatButtons": [
     { "glyph": "B",     "label": "Bold",            "fontWeight": "bold",    "italic": false, "underline": false },
