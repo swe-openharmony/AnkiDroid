@@ -12,10 +12,13 @@ interface CardRow {
   cardType: string;
   due: string;
   deck: string;
+  status?: string;
 }
 
 interface CardsFile {
   cards: CardRow[];
+  decks?: string[];
+  statuses?: string[];
 }
 
 type SortKey = 'sortField' | 'cardType' | 'due' | 'deck';
@@ -24,7 +27,7 @@ type SortKey = 'sortField' | 'cardType' | 'due' | 'deck';
 @Component
 struct CardBrowserPage {
   @State private deckName: string = 'Default';
-  @State private subtitle: string = '4 cards shown';
+  @State private subtitle: string = '8 cards shown';
   @State private sortKey: SortKey = 'sortField';
   @State private sortAsc: boolean = true;
 

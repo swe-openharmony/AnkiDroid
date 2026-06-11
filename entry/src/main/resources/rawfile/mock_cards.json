@@ -1,8 +1,14 @@
 {
   "cards": [
-    { "id": "c1", "sortField": "Hello", "cardType": "Basic", "due": "Today", "deck": "Default" },
-    { "id": "c2", "sortField": "World", "cardType": "Basic", "due": "1d", "deck": "Default" },
-    { "id": "c3", "sortField": "Cloze deletion sample", "cardType": "Cloze", "due": "3d", "deck": "Japanese" },
-    { "id": "c4", "sortField": "Long sort field example that truncates at the edge", "cardType": "Basic (and reversed card)", "due": "2026-04-30", "deck": "Default::Subdeck" }
-  ]
+    { "id": "c1", "sortField": "Hello", "cardType": "Basic", "due": "Today", "deck": "Default", "status": "New" },
+    { "id": "c2", "sortField": "World", "cardType": "Basic", "due": "1d", "deck": "Default", "status": "Learning" },
+    { "id": "c3", "sortField": "Cloze deletion sample", "cardType": "Cloze", "due": "3d", "deck": "Japanese", "status": "Review" },
+    { "id": "c4", "sortField": "Long sort field example", "cardType": "Basic (and reversed card)", "due": "2026-04-30", "deck": "Default::Subdeck", "status": "New" },
+    { "id": "c5", "sortField": "Apple", "cardType": "Basic", "due": "5d", "deck": "Japanese", "status": "Review" },
+    { "id": "c6", "sortField": "Banana", "cardType": "Basic", "due": "2d", "deck": "Default", "status": "Learning" },
+    { "id": "c7", "sortField": "Cherry", "cardType": "Cloze", "due": "Today", "deck": "Spanish", "status": "New" },
+    { "id": "c8", "sortField": "Date", "cardType": "Basic", "due": "10d", "deck": "Spanish", "status": "Review" }
+  ],
+  "decks": ["All decks", "Default", "Default::Subdeck", "Japanese", "Spanish"],
+  "statuses": ["All", "New", "Learning", "Review", "Suspended"]
 }
